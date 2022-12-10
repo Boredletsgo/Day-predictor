@@ -1,0 +1,6 @@
+import random
+print('Hello!! Welcome to your day predictor')
+print('What is your name?')
+name= input()
+r=random.randint(0,10)
+print((name)+' your day is going to be a ' +str(r)+' out of 10')
